@@ -55,6 +55,6 @@ module.exports.removeFromLikedMovies = async(req, res) => {
     }
 }
     catch(err){
-        return res.json({msg: "Error deleting movie"});
+        return res.json({msg: "Error deleting the movie"});
     }
 };
